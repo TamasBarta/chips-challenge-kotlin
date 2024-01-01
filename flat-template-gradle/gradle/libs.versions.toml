@@ -1,0 +1,30 @@
+[versions]
+android-gradle-plugin = "7.2.0"
+androidx-appcompat = "1.6.1"
+createxcassets-gradle-plugin = "0.0.1"
+komp = "0.0.1-SNAPSHOT-78c6b91"
+kotlin = "1.9.10"
+kotlinx-coroutines = "1.7.2"
+lwjgl = "3.3.1"
+
+[libraries]
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
+com-android-tools-build-gradle = { module = "com.android.tools.build:gradle", version.ref = "android-gradle-plugin" }
+komp-android-flat-utils = { module = "com.danielgergely.komp.android:android-flat-utils", version.ref = "komp" }
+komp-flat-to-gl-adapter = { module = "com.danielgergely.komp:flat-to-gl-adapter", version.ref = "komp" }
+komp-ios-metal-utils = { module = "com.danielgergely.komp:ios-metal-utils", version.ref = "komp" }
+komp-js-utils = { module = "com.danielgergely.komp.js:js-utils", version.ref = "komp" }
+komp-komp-contract = { module = "com.danielgergely.komp:komp-flat-contract", version.ref = "komp" }
+komp-komp-utils = { module = "com.danielgergely.komp:komp-utils", version.ref = "komp" }
+komp-lwjgl-utils = { module = "com.danielgergely.komp.lwjgl:lwjgl-utils", version.ref = "komp" }
+org-jetbrains-kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+org-jetbrains-kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+org-lwjgl-assimp = { module = "org.lwjgl:lwjgl-assimp", version.ref = "lwjgl" }
+org-lwjgl-glfw = { module = "org.lwjgl:lwjgl-glfw", version.ref = "lwjgl" }
+org-lwjgl-lwjgl = { module = "org.lwjgl:lwjgl", version.ref = "lwjgl" }
+org-lwjgl-openal = { module = "org.lwjgl:lwjgl-openal", version.ref = "lwjgl" }
+org-lwjgl-opengl = { module = "org.lwjgl:lwjgl-opengl", version.ref = "lwjgl" }
+org-lwjgl-stb = { module = "org.lwjgl:lwjgl-stb", version.ref = "lwjgl" }
+
+[plugins]
+com-danielgergely-createxcassets = { id = "com.danielgergely.createxcassets", version.ref = "createxcassets-gradle-plugin" }

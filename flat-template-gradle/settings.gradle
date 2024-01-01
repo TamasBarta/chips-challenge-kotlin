@@ -1,0 +1,17 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        gradlePluginPortal()
+        maven { url = uri("https://plugins.gradle.org/m2/") }
+        maven { url = uri("https://jitpack.io") }
+        maven { url = uri("https://maven.danielgergely.com/snapshots") }
+        maven { url = uri("https://maven.danielgergely.com/releases") }
+        google()
+    }
+}
+
+include ':app'
+include ':frame:android-app'
+include ':frame:lwjgl-frame'
+include ':frame:js-frame'
+include ':frame:ios-lib'
